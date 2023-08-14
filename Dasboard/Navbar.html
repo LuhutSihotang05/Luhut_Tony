@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg" id="myNavbar" data-aos="fade-down" data-aos-duration="3000">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                <img src="asset/img/tapanuli utara.png" alt="Logo" width="30" height="28" class="d-inline-block align-text-top">
+                <b class="mx-1">Perpustakaan dan Arsip Tapanuli Utara</b>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent navbarScroll">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;"">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="dasboard.html">BERANDA</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">PROFIL</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">BERITA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">KEGIATAN</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                </div>
+            </div>
+        </nav>
+        <!-- /Navbar -->
+    </header>
+
+    <main class="mb-5" >
+    <!-- Coursel -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="asset/img/foto-1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/img/foto-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="asset/img/foto-3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Akhir Coursel -->
+    <!-- Card Content -->
+    <div class="position-relative">
+        <div class="container-fluid text-center mt-4 mb-1">
+            <div class="col-10 card top-50 start-50 translate-middle shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <div class="card-body" style="height: 150px;">
+                    <div class="container text-center mt-5">
+                        <div class="row align-items-center">
+                          <div class="col" data-aos="zoom-in" data-aos-duration="100" style="font-size: 20px;">
+                            <a href="#" style="text-decoration: none;">
+                                <i class="fa-solid fa-duotone fa-circle-user fa-2xl"></i>
+                                MASUK ADMIN
+                            </a>
+                          </div>
+                          <div class="col" data-aos="zoom-in" data-aos-delay="150" data-aos-duration="200" style="font-size: 20px;">
+                            <a href="/Data_arsip/Dasboard.html" style="text-decoration: none;">
+                                <i class="fa-solid fa-duotone fa-folder-open fa-2xl"></i>
+                                DATA ARSIP PERPUS
+                            </a>
+                          </div>
+                        </div>
+                    </div>   
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Card Content -->
+
+    <h1 class="text-center mb-5">Kegiatan Dinas Perpustakaan Dan Arsip <br> Tapanuli Utara</h1>
+    <br>
+    <div class="container mb-5">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" id="animated-card" data-aos="flip-up" data-aos-duration="100">
+                <img src="asset/img/portal_5an_wfbfr0Gz.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>   
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="flip-up" data-aos-duration="200">
+                <img src="asset/img/portal_HEcinNiAbDp1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>   
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="flip-up" data-aos-duration="300">
+                <img src="asset/img/portal_PKuJZd3e1l-m.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>   
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="container mb-5">
+        <div class="row align-items-start">
+          <div class="col">
+            <div class="card" data-aos="flip-up" data-aos-duration="400">
+                <img src="asset/img/portal_5an_wfbfr0Gz.jpeg" class="card-img-top" alt="...">
+                <div class="card-body mb-2">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>     
+                </div>
+            </div>
+          </div>
+          <div class="col" href="">
+            <div class="card" data-aos="flip-up" data-aos-duration="500">
+                <img src="asset/img/portal_HEcinNiAbDp1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body mb-2">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>   
+                </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" data-aos="flip-up" data-aos-duration="600">
+                <img src="asset/img/portal_PKuJZd3e1l-m.jpeg" class="card-img-top" alt="...">
+                <div class="card-body mb-2">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="" style="text-decoration: none;">Baca Selanjutnya 
+                    <i class="fa-solid fa-thin fa-arrow-right-long mx-2"></i>
+                  </a>   
+                </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    </main>
+
+    <footer class="text-light" style="background-color: #081430;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 py-4">
+                &copy; 2021 Tutorial Bootstrap
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/38bfaefe43.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+          const card = document.getElementById("animated-card");
+          card.addEventListener("click", () => {
+            card.classList.toggle("clicked");
+          });
+
+          const navbar = document.getElementById('myNavbar');
+          const scrollThreshold = 750; // Change this value to determine when the navbar should change
+
+          window.addEventListener('scroll', () => {
+            if (window.scrollY >= scrollThreshold) {
+              navbar.style.backgroundColor = 'transparent'; // Change to your desired background color
+            } else {
+              navbar.style.backgroundColor = 'white';
+            }
+          });
+    </script>
+</body>
+</html>

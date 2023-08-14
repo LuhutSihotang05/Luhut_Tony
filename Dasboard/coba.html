@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Color Change Effect on Click</title>
+<style>
+  .custom-button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+
+  .custom-button.clicked {
+    background-color: #28a745; /* Change to the desired color */
+  }
+</style>
+</head>
+<body>
+  <div class="container mt-5">
+    <button class="custom-button" id="myButton">Click Me</button>
+  </div>
+
+  <script>
+    const customButton = document.getElementById('myButton');
+
+    customButton.addEventListener('click', () => {
+      customButton.classList.add('clicked');
+
+      // Reset the color after a short delay (you can adjust the delay)
+      setTimeout(() => {
+        customButton.classList.remove('clicked');
+      }, 300);
+    });
+  </script>
+</body>
+</html>
