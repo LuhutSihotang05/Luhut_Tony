@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ADMIN ARSIP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylearsip.css">
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="col-12">
+                <!-- Navbar -->
+                <nav class="navbar navbar-expand-lg bg-body-tertiary py-2 shadow p-3 bg-body-tertiary rounded" data-aos="fade-down" data-aos-duration="3000">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="tapanuli utara.png" alt="Logo" width="30" height="28" class="d-inline-block align-text-top">
+                            <b class="mx-1">Perpustakaan dan Arsip Tapanuli Utara</b>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="Navbar.html">Home</a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- /Navbar -->
+            </div>
+        </div>
+    </header>
+    <main class="">
+        <div class="row">
+            <div class="col-md-2 py-4">
+                <div class="overflow-y-scroll" style="height: auto;">
+                    <div class="container-fluid">
+                        <ul class="nav">
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Sekretariat Daerah</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="adminsekretariatdprd.php">Sekretariat DPRD</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Inspektorat</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Kepegawaian  dan Pengembangan Sumber Daya Manusia</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Keuangan dan Aset Daerah</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Pendapatan Daerah</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Perencanaan, Pembangunan, Penelitian dan Pengembangan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Penanggulangan Bencana Daerah</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Badan Kesatuan Bangsa dan Politik</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pariwisata</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Koperasi, Usaha Kecil Menengah, Perindustrian dan Perdagangan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pertanian</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pemuda dan Olahraga</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pekerjaan Umum dan Tata Ruang</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Perhubungan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Komunikasi dan Informatika</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Ketahanan Pangan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Penanaman Modal dan Pelayanan Terpadu Satu Pintu</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Ketenagakerjaan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Kependudukan dan Pencatatan Sipil</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Perumahan dan Kawasan Permukiman</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Lingkungan Hidup</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Perpustakaan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Kesehatan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Sosial</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pemberdayaan Masyarakat Desa</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pendidikan dan Kebudayaan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Dinas Pengendalian Penduduk, Keluarga Berencana, Pemberdayaan Perempuan dan Perlindungan Anak</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Satuan Polisi Pamong Praja</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Rumah Sakit Umum Daerah Tarutung</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Adiankoting</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Garoga</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Muara</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Pagaran</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Pahae Jae</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Pahae Julu</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Pangaribuan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Parmonangan</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Purba Tua</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Siatas Barita</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Siborongborong</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Simangumban</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Sipahutar</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Sipoholon</a>
+                          </li>
+                          <li class="nav-item btn btn1 text-start mx-2" id="myButton">
+                            <a class="nav-link" href="#">Kantor Camat Tarutung</a>
+                          </li>
+                          <!-- Add more menu items as needed -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 py-3">
+                <div class="row">
+                    <div class="col-9">
+                        <h2 class="mt-3" style="font-family: Arial, Helvetica, sans-serif;">Sekretariat DPRD</h2>
+                    </div>
+                    <div class="col-3 py-3">
+                        <nav aria-label="breadcrumb">
+                            
+                          </nav>
+                    </div>
+                </div>
+                <div class="card col-12">
+                    <div class="card-header">
+                        <button type="submit" class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#tambahData">
+                            <i class="fa-solid fa-plus"></i> Tambah Data
+                        </button>
+                        <!-- Modal Tambah -->
+                        <div class="modal fade" id="tambahData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="container-fluid modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tambah Data</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <!-- awal form tambah -->
+                                        <form>
+                                            <div class="row mb-3">
+                                                <label for="inputEmail3" class="col-sm-4 col-form-label">Kode Klasifikasi</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputEmail3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">No BOX</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">No Berkas</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">Uraian</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">Tahun</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">Jumlah</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                            <div class="row mb-3">
+                                                <label for="inputPassword3" class="col-sm-4 col-form-label">Keterangan</label>
+                                                <div class="col-sm-8">
+                                                    <input type="text" class="form-control" id="inputPassword3">
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <!-- /awal form tambah -->
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="submit" class="btn btn-primary">Save</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Modal Tambah -->
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-9">
+                                <div class="row">
+                                    <div class="col-auto">
+                                        <p>show</p>
+                                    </div>
+                                    <div class="col-auto">
+                                        <div class="btn-group">
+                                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                              10
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">1</a></li>
+                                                <li><a class="dropdown-item" href="#">2</a></li>
+                                                <li><a class="dropdown-item" href="#">3</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-auto">
+                                        <p>enteries</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <form class="d-flex" role="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success" type="submit">Search</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <table class="table table-bordered">
+                                <thead>
+                                  <tr>
+                                  
+                                    <th scope="col">Kode Klasifikasi</th>
+                                    <th scope="col">No Box</th>
+                                    <th scope="col">No Berkas</th>
+                                    <th scope="col">Uraian</th>
+                                    <th scope="col">Tahun</th>
+                                    <th scope="col">Jumlah</th>
+                                    <th scope="col">Keterangan</th>
+                                    <th scope="col">File</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <?php include("config.php");
+                                  
+                                      $sql = "SELECT * FROM sekretariatdprd";
+                                        $query = mysqli_query($db, $sql);
+
+                                        while($data = mysqli_fetch_array($query)){
+                                        echo"<tr>";
+                                             
+                                            echo"<td>".$data['kd_klasifikasi']."</td>";
+                                            echo"<td>".$data['no_box']."</td>";
+                                            echo"<td>".$data['no_berkas']."</td>";
+                                            echo"<td>".$data['uraian']."</td>";
+                                            echo"<td>".$data['tahun']."</td>";
+                                            echo"<td>".$data['jumlah']."</td>";
+                                            echo"<td>".$data['ket']."</td>";
+                                            echo"<td>";
+
+                                   echo "<div class='mb-3' action='' method='POST' enctype='multipart/form-data'>";
+                                                   echo" <input class='form-control' name='NamaFile' type='file' id='formFile'>";
+                                                   echo" <input name='proses' type='submit' value='upload'>";
+                                                echo"</div>";
+                                                $db = mysqli_connect("localhost", "root", "", "arsip");
+
+                                                
+                                                if(isset($_POST['proses'])){
+                                                    $direktori = "berkas/";
+                                                    $file_name=$_FILES['NamaFile']['name'];
+                                                    move_uploaded_file($_FILES['NamaFile']['tmp_name'],$direktori.$file_name);
+
+                                                    mysqli_query($db, "insert into dokumen set file='$file_name'");
+                                                    echo"File berhasil diupload";
+                                                }
+                              
+                                         
+                                   echo "</td>";
+                                 echo "</tr>";
+                                 }
+
+
+                               
+                                   ?>
+                                </tbody>
+                            </table>
+                        </div>
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-end">
+                              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-primary text-white">
+        <div class="row">
+            <div class="col-12 py-4">
+                &copy; AW
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/38bfaefe43.js" crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const btn1 = document.getElementById('myButton');
+
+        btn1.addEventListener('click', () => {
+        btn1.classList.add('clicked');
+
+        // Reset the color after a short delay (you can adjust the delay)
+        setTimeout(() => {
+            btn.classList.remove('clicked');
+        }, 300);
+        });
+    </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
